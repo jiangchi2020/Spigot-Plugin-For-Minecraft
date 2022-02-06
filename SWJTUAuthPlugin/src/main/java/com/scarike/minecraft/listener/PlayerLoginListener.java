@@ -3,6 +3,7 @@ package com.scarike.minecraft.listener;
 import com.scarike.minecraft.config.PluginConfig;
 import com.scarike.minecraft.dao.PlayerDao;
 import com.scarike.minecraft.dao.PlayerDaoImpl;
+import com.scarike.minecraft.dao.PlayerDaoImpl2;
 import com.scarike.minecraft.util.LoginStatus;
 import com.scarike.minecraft.util.SQLUtil;
 import org.bukkit.entity.Player;
@@ -21,7 +22,7 @@ public class PlayerLoginListener implements Listener {
     private final Logger log=Logger.getLogger("minecraft");
 
     public PlayerLoginListener(PluginConfig conf) {
-        this.dao = new PlayerDaoImpl(new SQLUtil(conf));
+        this.dao = new PlayerDaoImpl2(conf);
         CONF = conf;
     }
 

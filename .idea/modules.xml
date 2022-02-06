@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasisSurvivalPlugin/BasisSurvivalPlugin.iml" filepath="$PROJECT_DIR$/BasisSurvivalPlugin/BasisSurvivalPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DreamFlyPlugin/DreamFlyPlugin.iml" filepath="$PROJECT_DIR$/DreamFlyPlugin/DreamFlyPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWJTUAuthPlugin/SWJTUAuthPlugin.iml" filepath="$PROJECT_DIR$/SWJTUAuthPlugin/SWJTUAuthPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spigot-Plugin-For-Minecraft.iml" filepath="$PROJECT_DIR$/.idea/Spigot-Plugin-For-Minecraft.iml" />
+    </modules>
+  </component>
+</project>
