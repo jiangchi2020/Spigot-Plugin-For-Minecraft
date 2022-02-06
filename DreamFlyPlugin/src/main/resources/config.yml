@@ -1,0 +1,19 @@
+ticks_to_dream: 200 # 入睡后多久执行随机入睡，默认200ticks
+interval_to_rand: 100 # 间隔多久随机一次使得玩家进入梦境，单位ticks，默认100ticks
+probability_to_dream: 100 # 每次检查时判定为进入梦境的概率，默认100%，取值0-100，为0时表示关闭梦游功能，为100时ticks_to_dream即为进入梦境的时间
+max_dream_ticks: 12000 # 最长梦游时间，默认12000ticks(游戏中的半天)
+working_world: world # 插件工作的世界名称，默认world，暂且仅支持工作在一个世界
+wake_condition: # 玩家从梦游苏醒的条件
+  distance: 320 # 距离主世界出生点的最大水平距离，默认320，若小于等于0表示不限制距离
+  min_y: -64 # 最小y坐标，默认-64
+  max_y: 256 # 最大y坐标，默认256
+  world_change: true # 改变世界时苏醒，默认true
+  cmd_force: true # 玩家使用命令强制苏醒，默认true
+tips: # 向玩家展示的文字提示
+  player_in_dream:
+    title: 这里是...我的梦？！ # 当玩家进入梦游状态时发送
+    subtitle: " "
+  player_wake:
+    title: " "
+    subtitle: 大梦谁先觉，平生我自知... # 当玩家醒来时发送
+  progress_bar_title: 苏醒倒计时 # 显示在进度条上的标题

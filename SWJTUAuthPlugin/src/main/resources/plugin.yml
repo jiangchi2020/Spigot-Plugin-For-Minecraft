@@ -1,0 +1,6 @@
+name: SWJTUAuthPlugin
+version: '${project.version}'
+main: com.scarike.minecraft.SWJTUAuthPlugin
+api-version: 1.18
+authors: [ Scarike ]
+description: 西南交大服务器认证插件

@@ -1,0 +1,16 @@
+name: BasisSurvivalPlugin
+version: '${project.version}'
+main: com.scarike.minecraft.BasisSurvivalPlugin
+api-version: 1.16
+authors: [ Scarike ]
+description: A Plugin For Basis Survival
+commands:
+  /mv:
+    description: teleport, just like /tp
+    usage: //mv < | [target] | [player] [target] | {x} {y} {z}>
+  /mk:
+    description: set a mark on you location
+    usage: //mk < -i | -m message >
+  /clear:
+    description: clear the drop entity,just like /kill @e[x=?,y=?,z=?,diatance=..10,type=item]
+    usage: //clear
